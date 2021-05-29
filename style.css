@@ -1,0 +1,71 @@
+body{
+    background-color: white;
+    margin:0;
+    padding: 0;
+}
+.container{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(177, 17, 17);
+}
+.title
+{
+    margin: 0;
+    padding: 0;
+    height: 600px;
+    width: 100%;
+    background-size: auto;
+    background: url("ImageCover/main\ cover.jpg") no-repeat;
+    background-size: cover;
+}
+.title h1{
+    font-size: 70px;
+    margin: 0;
+    text-align: center;
+    padding: 12%;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.content{
+    margin: 0;
+    padding: 0 0 20px 0;
+    width: 100%;
+    height: auto;
+    background: url("ImageCover/Woodback.jpg") repeat;
+    background-size: contain;
+}
+h1{
+    margin: 0;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding: 30px 0;
+}
+.continental .indian{
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+li
+{
+    margin: 12px;
+    border:solid 2px #000000;
+    border-radius: 8px;
+    padding: 5px;
+}
+.detail{
+    width: 250px;
+    box-sizing: border-box;
+    float: right;
+    color: white;
+}
+.continental img, .indian img{
+    width: 350px;
+    height: 250px;
+}
